@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		86A96F4D1432C00203F08E13 /* Pods_Landlord_Mobile.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 197B9064E49C3E93C0D7F024 /* Pods_Landlord_Mobile.framework */; };
+		DB7F1BDB203B85EE006324E2 /* LANDLORDMOBILEAPIForPropertyMgmtClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB7F1BDA203B85EE006324E2 /* LANDLORDMOBILEAPIForPropertyMgmtClient.swift */; };
 		E43BACC02029151100ECCCEC /* CLIAPIForPropertyMgmtClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = E43BACBE2029151100ECCCEC /* CLIAPIForPropertyMgmtClient.swift */; };
 		E43BACC12029151100ECCCEC /* Empty.swift in Sources */ = {isa = PBXBuildFile; fileRef = E43BACBF2029151100ECCCEC /* Empty.swift */; };
 		E4DB8FCF2028F26F0010EBEA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4DB8FCE2028F26F0010EBEA /* AppDelegate.swift */; };
@@ -38,6 +39,7 @@
 /* Begin PBXFileReference section */
 		197B9064E49C3E93C0D7F024 /* Pods_Landlord_Mobile.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Landlord_Mobile.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5801E3AAFE1471E46B24B54C /* Pods-Landlord_Mobile.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Landlord_Mobile.release.xcconfig"; path = "Pods/Target Support Files/Pods-Landlord_Mobile/Pods-Landlord_Mobile.release.xcconfig"; sourceTree = "<group>"; };
+		DB7F1BDA203B85EE006324E2 /* LANDLORDMOBILEAPIForPropertyMgmtClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LANDLORDMOBILEAPIForPropertyMgmtClient.swift; sourceTree = "<group>"; };
 		E43BACBC2029150000ECCCEC /* AWSApiGatewayBridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AWSApiGatewayBridge.h; sourceTree = "<group>"; };
 		E43BACBD2029151100ECCCEC /* Bridging_Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bridging_Header.h; sourceTree = "<group>"; };
 		E43BACBE2029151100ECCCEC /* CLIAPIForPropertyMgmtClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CLIAPIForPropertyMgmtClient.swift; sourceTree = "<group>"; };
@@ -122,6 +124,7 @@
 		E4DB8FCD2028F26F0010EBEA /* Landlord_Mobile */ = {
 			isa = PBXGroup;
 			children = (
+				DB7F1BDA203B85EE006324E2 /* LANDLORDMOBILEAPIForPropertyMgmtClient.swift */,
 				E43BACBD2029151100ECCCEC /* Bridging_Header.h */,
 				E43BACBE2029151100ECCCEC /* CLIAPIForPropertyMgmtClient.swift */,
 				E43BACBF2029151100ECCCEC /* Empty.swift */,
@@ -332,6 +335,7 @@
 			files = (
 				E4DB8FD12028F26F0010EBEA /* ViewController.swift in Sources */,
 				E43BACC12029151100ECCCEC /* Empty.swift in Sources */,
+				DB7F1BDB203B85EE006324E2 /* LANDLORDMOBILEAPIForPropertyMgmtClient.swift in Sources */,
 				E43BACC02029151100ECCCEC /* CLIAPIForPropertyMgmtClient.swift in Sources */,
 				E4DB8FCF2028F26F0010EBEA /* AppDelegate.swift in Sources */,
 			);
