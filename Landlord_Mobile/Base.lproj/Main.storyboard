@@ -778,7 +778,96 @@
                     <view key="view" contentMode="scaleToFill" id="otd-7R-cR2">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" alignment="bottom" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="I45-ex-bSX">
+                                <rect key="frame" x="20" y="60" width="335" height="210"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" alignment="bottom" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="xtG-q2-Ys7">
+                                        <rect key="frame" x="0.0" y="10" width="220.5" height="200"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Purchase Details" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kNI-nx-dlI">
+                                                <rect key="frame" x="75" y="0.0" width="145.5" height="24"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Owner ID" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ive-J2-3ji">
+                                                <rect key="frame" x="149.5" y="44" width="71" height="24"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Property ID" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="q4m-hI-GSq">
+                                                <rect key="frame" x="133.5" y="88" width="87" height="24"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Price" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="L7P-st-NKb">
+                                                <rect key="frame" x="181.5" y="132" width="39" height="24"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Year" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nSW-tK-wE0">
+                                                <rect key="frame" x="186.5" y="176" width="34" height="24"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="12" translatesAutoresizingMaskIntoConstraints="NO" id="AC6-Ze-knc">
+                                        <rect key="frame" x="240.5" y="54" width="94.5" height="156"/>
+                                        <subviews>
+                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Owner ID" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="dYr-Uk-nHH">
+                                                <rect key="frame" x="0.0" y="0.0" width="94.5" height="30"/>
+                                                <nil key="textColor"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits"/>
+                                            </textField>
+                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Property ID" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="U3G-hY-6vn">
+                                                <rect key="frame" x="0.0" y="42" width="94.5" height="30"/>
+                                                <nil key="textColor"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits"/>
+                                            </textField>
+                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Price" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="eVJ-2t-iGn">
+                                                <rect key="frame" x="0.0" y="84" width="94.5" height="30"/>
+                                                <nil key="textColor"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits"/>
+                                            </textField>
+                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Year" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="gzC-Nf-z2q">
+                                                <rect key="frame" x="0.0" y="126" width="94.5" height="30"/>
+                                                <nil key="textColor"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits"/>
+                                            </textField>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstAttribute="trailing" secondItem="U3G-hY-6vn" secondAttribute="trailing" id="9Kg-or-JxD"/>
+                                            <constraint firstAttribute="trailing" secondItem="eVJ-2t-iGn" secondAttribute="trailing" id="CcU-Kw-Cba"/>
+                                            <constraint firstAttribute="trailing" secondItem="gzC-Nf-z2q" secondAttribute="trailing" id="GpR-eS-tC6"/>
+                                            <constraint firstAttribute="trailing" secondItem="dYr-Uk-nHH" secondAttribute="trailing" id="ioM-M9-OwD"/>
+                                            <constraint firstItem="dYr-Uk-nHH" firstAttribute="top" secondItem="AC6-Ze-knc" secondAttribute="top" constant="30" id="raP-RU-8o6"/>
+                                        </constraints>
+                                    </stackView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="xtG-q2-Ys7" firstAttribute="top" secondItem="I45-ex-bSX" secondAttribute="top" constant="10" id="Fbx-MU-mQU"/>
+                                    <constraint firstItem="AC6-Ze-knc" firstAttribute="leading" secondItem="xtG-q2-Ys7" secondAttribute="trailing" constant="20" id="Mwb-rS-9ha"/>
+                                    <constraint firstItem="xtG-q2-Ys7" firstAttribute="top" secondItem="I45-ex-bSX" secondAttribute="top" constant="10" id="vwJ-it-E5B"/>
+                                    <constraint firstItem="xtG-q2-Ys7" firstAttribute="top" secondItem="I45-ex-bSX" secondAttribute="top" constant="40" id="xuY-yf-DaC"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="I45-ex-bSX" firstAttribute="leading" secondItem="yQb-Dc-0BR" secondAttribute="leading" constant="20" id="OkO-Q2-oC0"/>
+                            <constraint firstItem="yQb-Dc-0BR" firstAttribute="trailing" secondItem="I45-ex-bSX" secondAttribute="trailing" constant="20" id="h8D-Lj-7CG"/>
+                            <constraint firstItem="I45-ex-bSX" firstAttribute="top" secondItem="yQb-Dc-0BR" secondAttribute="top" constant="40" id="tiO-8I-kSm"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="yQb-Dc-0BR"/>
                     </view>
                 </viewController>
