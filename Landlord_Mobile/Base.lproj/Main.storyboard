@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Txy-xs-9s0">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Hjn-KF-NCa">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -183,7 +183,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" alignment="bottom" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="7vo-Is-bVO">
-                                <rect key="frame" x="24" y="49" width="358" height="330"/>
+                                <rect key="frame" x="8" y="44" width="358" height="330"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" distribution="fillEqually" alignment="bottom" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="kz2-xJ-tjm">
@@ -410,6 +410,134 @@
             <point key="canvasLocation" x="1426" y="972"/>
         </scene>
         <!--View Controller-->
+        <scene sceneID="4jP-r6-cGH">
+            <objects>
+                <viewController id="Hjn-KF-NCa" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="7tO-6N-Rcz">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" alignment="bottom" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="OME-dI-rxd">
+                                <rect key="frame" x="20" y="60" width="335" height="298"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" alignment="bottom" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="veu-Kd-aEu">
+                                        <rect key="frame" x="0.0" y="10" width="185" height="288"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Maintenance Expenses" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="38C-Ce-bul">
+                                                <rect key="frame" x="0.0" y="0.0" width="185" height="24"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Owner ID" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wMq-jc-BOv">
+                                                <rect key="frame" x="114" y="44" width="71" height="24"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Property Expense ID" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hpb-WI-9fk">
+                                                <rect key="frame" x="28.5" y="88" width="156.5" height="24"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Maintenance Expense ID" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JJf-4m-CM8">
+                                                <rect key="frame" x="0.0" y="132" width="185" height="24"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Expense Amount" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qf4-wj-3oT">
+                                                <rect key="frame" x="55.5" y="176" width="129.5" height="24"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Receipt Copy" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fuB-74-dNW">
+                                                <rect key="frame" x="82.5" y="220" width="102.5" height="24"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Receipt Date" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vkY-Sa-m4k">
+                                                <rect key="frame" x="86.5" y="264" width="98.5" height="24"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="13" translatesAutoresizingMaskIntoConstraints="NO" id="yTR-Xa-IX2">
+                                        <rect key="frame" x="205" y="53" width="130" height="245"/>
+                                        <subviews>
+                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Owner ID" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="YyL-xE-pNX">
+                                                <rect key="frame" x="0.0" y="0.0" width="130" height="30"/>
+                                                <nil key="textColor"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits"/>
+                                            </textField>
+                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Property Expense ID" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ZLm-kq-2Tv">
+                                                <rect key="frame" x="0.0" y="43" width="130" height="30"/>
+                                                <nil key="textColor"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits"/>
+                                            </textField>
+                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Maintenance Expense ID" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="tMI-Up-Cqh">
+                                                <rect key="frame" x="0.0" y="86" width="130" height="30"/>
+                                                <nil key="textColor"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits"/>
+                                            </textField>
+                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Expense Amount" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="xRd-os-aBI">
+                                                <rect key="frame" x="0.0" y="129" width="130" height="30"/>
+                                                <nil key="textColor"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits"/>
+                                            </textField>
+                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Receipt Copy" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Kj4-GI-Zuz">
+                                                <rect key="frame" x="0.0" y="172" width="130" height="30"/>
+                                                <nil key="textColor"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits"/>
+                                            </textField>
+                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Receipt Date" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="zFT-kx-d35">
+                                                <rect key="frame" x="0.0" y="215" width="130" height="30"/>
+                                                <nil key="textColor"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits"/>
+                                            </textField>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstAttribute="trailing" secondItem="tMI-Up-Cqh" secondAttribute="trailing" id="2eP-Pc-AhQ"/>
+                                            <constraint firstAttribute="trailing" secondItem="zFT-kx-d35" secondAttribute="trailing" id="578-kk-DDp"/>
+                                            <constraint firstAttribute="trailing" secondItem="Kj4-GI-Zuz" secondAttribute="trailing" id="5te-e1-jbU"/>
+                                            <constraint firstItem="tMI-Up-Cqh" firstAttribute="top" secondItem="ZLm-kq-2Tv" secondAttribute="bottom" constant="30" id="EIf-EA-lXW"/>
+                                            <constraint firstAttribute="trailing" secondItem="ZLm-kq-2Tv" secondAttribute="trailing" id="NX2-rz-YYT"/>
+                                            <constraint firstItem="YyL-xE-pNX" firstAttribute="top" secondItem="yTR-Xa-IX2" secondAttribute="top" constant="30" id="Ovo-EX-Il7"/>
+                                            <constraint firstAttribute="trailing" secondItem="xRd-os-aBI" secondAttribute="trailing" id="gxp-B7-3Lq"/>
+                                            <constraint firstAttribute="trailing" secondItem="YyL-xE-pNX" secondAttribute="trailing" id="slr-oI-MJ5"/>
+                                        </constraints>
+                                    </stackView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="veu-Kd-aEu" firstAttribute="top" secondItem="OME-dI-rxd" secondAttribute="top" constant="10" id="mfg-LZ-efg"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="OME-dI-rxd" firstAttribute="leading" secondItem="xs1-xZ-BN8" secondAttribute="leading" constant="20" id="FXf-Be-Wtp"/>
+                            <constraint firstItem="OME-dI-rxd" firstAttribute="top" secondItem="xs1-xZ-BN8" secondAttribute="top" constant="40" id="G7d-uW-vgW"/>
+                            <constraint firstAttribute="trailing" secondItem="OME-dI-rxd" secondAttribute="trailing" constant="20" id="lrB-yb-vEy"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="xs1-xZ-BN8"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1NS-NR-kSx" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2396" y="740"/>
+        </scene>
+        <!--View Controller-->
         <scene sceneID="7Dr-CT-ezZ">
             <objects>
                 <viewController id="vju-vM-lxL" sceneMemberID="viewController">
@@ -443,9 +571,6 @@
                                     <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ejm-JF-si9">
                                         <rect key="frame" x="0.0" y="38" width="187" height="30"/>
                                         <state key="normal" title="Property General Expenses"/>
-                                        <connections>
-                                            <segue destination="sai-7Z-uG3" kind="modal" id="vUk-Jm-W4V"/>
-                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VGq-QJ-A1R">
                                         <rect key="frame" x="0.0" y="76" width="218" height="30"/>
