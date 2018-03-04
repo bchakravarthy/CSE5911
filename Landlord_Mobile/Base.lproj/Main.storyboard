@@ -901,7 +901,6 @@
                                             <constraint firstAttribute="trailing" secondItem="ic4-12-hzC" secondAttribute="trailing" id="ET6-xT-IeQ"/>
                                             <constraint firstAttribute="trailing" secondItem="atU-TO-FDa" secondAttribute="trailing" id="KJ0-ex-ywg"/>
                                             <constraint firstAttribute="trailing" secondItem="NmB-MG-rhQ" secondAttribute="trailing" id="QXb-So-RTa"/>
-                                            <constraint firstItem="ISc-0s-9br" firstAttribute="top" secondItem="GF4-Lf-gMr" secondAttribute="top" constant="30" id="avD-YL-vZQ"/>
                                             <constraint firstAttribute="trailing" secondItem="A23-cb-UZb" secondAttribute="trailing" id="d3G-VG-qJ2"/>
                                             <constraint firstAttribute="trailing" secondItem="CkK-ao-2Bq" secondAttribute="trailing" id="g2U-Vi-q2H"/>
                                             <constraint firstAttribute="trailing" secondItem="RfY-8h-YMV" secondAttribute="trailing" id="iu0-Ga-uu0"/>
@@ -1031,11 +1030,9 @@
                                             <constraint firstAttribute="trailing" secondItem="F1O-ck-bL6" secondAttribute="trailing" id="06m-Y5-82i"/>
                                             <constraint firstAttribute="trailing" secondItem="FiA-dI-1Tq" secondAttribute="trailing" id="1bz-3M-y2a"/>
                                             <constraint firstAttribute="trailing" secondItem="eMb-lB-IYY" secondAttribute="trailing" id="7Ip-59-eC1"/>
-                                            <constraint firstItem="vw7-s5-DBR" firstAttribute="top" secondItem="Y56-9z-1kT" secondAttribute="bottom" constant="30" id="9b5-ry-IcT"/>
                                             <constraint firstAttribute="trailing" secondItem="N4C-mT-Z2w" secondAttribute="trailing" id="IJf-WE-RmX"/>
                                             <constraint firstAttribute="trailing" secondItem="Y56-9z-1kT" secondAttribute="trailing" id="Pa5-0o-gA2"/>
                                             <constraint firstAttribute="trailing" secondItem="vw7-s5-DBR" secondAttribute="trailing" id="Ye6-08-uHW"/>
-                                            <constraint firstItem="FiA-dI-1Tq" firstAttribute="top" secondItem="p9j-2q-pA3" secondAttribute="top" constant="30" id="nMA-vp-I0d"/>
                                         </constraints>
                                     </stackView>
                                 </subviews>
@@ -1156,9 +1153,7 @@
                                             </textField>
                                         </subviews>
                                         <constraints>
-                                            <constraint firstItem="eBj-ZF-wLb" firstAttribute="top" secondItem="cW3-QN-6zv" secondAttribute="top" constant="30" id="0NB-W2-lD6"/>
                                             <constraint firstAttribute="trailing" secondItem="9c1-Py-SSX" secondAttribute="trailing" id="3Uh-Mc-F6V"/>
-                                            <constraint firstItem="Urf-wo-4EY" firstAttribute="top" secondItem="2yg-Ae-1Ew" secondAttribute="bottom" constant="30" id="F9d-sm-g81"/>
                                             <constraint firstAttribute="trailing" secondItem="OWk-dR-a16" secondAttribute="trailing" id="G6z-PN-mfX"/>
                                             <constraint firstAttribute="trailing" secondItem="CPC-TG-NHc" secondAttribute="trailing" id="PFL-wJ-7VA"/>
                                             <constraint firstAttribute="trailing" secondItem="Urf-wo-4EY" secondAttribute="trailing" id="PQ4-Rt-Mni"/>
@@ -1276,9 +1271,7 @@
                                             <constraint firstAttribute="trailing" secondItem="HVa-mf-PIv" secondAttribute="trailing" id="47z-Sk-9IT"/>
                                             <constraint firstAttribute="trailing" secondItem="5yf-0N-ZMj" secondAttribute="trailing" id="8MD-Ly-f8Z"/>
                                             <constraint firstAttribute="trailing" secondItem="Fha-2M-N7S" secondAttribute="trailing" id="9Xp-JY-o1O"/>
-                                            <constraint firstItem="coy-tP-zYF" firstAttribute="top" secondItem="o1i-72-U38" secondAttribute="top" constant="30" id="N7Z-Ey-XnK"/>
                                             <constraint firstAttribute="trailing" secondItem="coy-tP-zYF" secondAttribute="trailing" id="WSG-e4-ber"/>
-                                            <constraint firstItem="HVa-mf-PIv" firstAttribute="top" secondItem="5yf-0N-ZMj" secondAttribute="bottom" constant="30" id="ugu-YI-v5g"/>
                                         </constraints>
                                     </stackView>
                                 </subviews>
@@ -1378,9 +1371,7 @@
                                             <constraint firstAttribute="trailing" secondItem="Ukd-Ks-TlW" secondAttribute="trailing" id="Afi-9C-Amm"/>
                                             <constraint firstAttribute="trailing" secondItem="v5a-qf-bZb" secondAttribute="trailing" id="T1w-CY-Oe9"/>
                                             <constraint firstAttribute="trailing" secondItem="5KM-dX-xOJ" secondAttribute="trailing" id="eQl-AQ-Y1L"/>
-                                            <constraint firstItem="5KM-dX-xOJ" firstAttribute="top" secondItem="Ukd-Ks-TlW" secondAttribute="bottom" constant="30" id="g8S-Nx-jc3"/>
                                             <constraint firstAttribute="trailing" secondItem="zYJ-Ov-dyf" secondAttribute="trailing" id="gd0-dM-Q6j"/>
-                                            <constraint firstItem="zYJ-Ov-dyf" firstAttribute="top" secondItem="srp-F5-ENr" secondAttribute="top" constant="30" id="zNv-uQ-bqT"/>
                                         </constraints>
                                     </stackView>
                                 </subviews>
