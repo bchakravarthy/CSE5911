@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="yqL-Kr-zED">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="8YO-ut-drd">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -652,6 +652,139 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iHg-bc-F0w" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="3198" y="737"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="BK7-sM-jmQ">
+            <objects>
+                <viewController id="VkP-KG-fw0" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="DnO-Uv-CPP">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" alignment="bottom" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="i86-vh-OcQ">
+                                <rect key="frame" x="20" y="60" width="335" height="254"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" alignment="bottom" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="AJZ-P6-3Uq">
+                                        <rect key="frame" x="0.0" y="10" width="194.5" height="244"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Property Tax" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HVx-GE-sgj">
+                                                <rect key="frame" x="86.5" y="0.0" width="108" height="24"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Property ID" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="S6N-FV-bcA">
+                                                <rect key="frame" x="107.5" y="44" width="87" height="24"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Owner ID" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2KE-Z3-ySL">
+                                                <rect key="frame" x="123.5" y="88" width="71" height="24"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Annual Tax" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XBD-f2-PvA">
+                                                <rect key="frame" x="111" y="132" width="83.5" height="24"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Property Tax ID" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tRg-ub-9el">
+                                                <rect key="frame" x="77" y="176" width="117.5" height="24"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Year" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MOh-J0-B7t">
+                                                <rect key="frame" x="160.5" y="220" width="34" height="24"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="12" translatesAutoresizingMaskIntoConstraints="NO" id="F6W-su-UER">
+                                        <rect key="frame" x="214.5" y="56" width="120.5" height="198"/>
+                                        <subviews>
+                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Property ID" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="jTM-jb-Qrk">
+                                                <rect key="frame" x="0.0" y="0.0" width="120.5" height="30"/>
+                                                <nil key="textColor"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits"/>
+                                            </textField>
+                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Owner ID" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="5Ft-7Q-vaT">
+                                                <rect key="frame" x="0.0" y="42" width="120.5" height="30"/>
+                                                <nil key="textColor"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits"/>
+                                            </textField>
+                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Annual Tax" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="vwh-Zh-rIr">
+                                                <rect key="frame" x="0.0" y="84" width="120.5" height="30"/>
+                                                <nil key="textColor"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits"/>
+                                            </textField>
+                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Property Tax ID" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="FZf-1i-P5e">
+                                                <rect key="frame" x="0.0" y="126" width="120.5" height="30"/>
+                                                <nil key="textColor"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits"/>
+                                            </textField>
+                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Year" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="hJ0-8X-T2d">
+                                                <rect key="frame" x="0.0" y="168" width="120.5" height="30"/>
+                                                <nil key="textColor"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits"/>
+                                            </textField>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstAttribute="trailing" secondItem="5Ft-7Q-vaT" secondAttribute="trailing" id="Ily-5z-PrY"/>
+                                            <constraint firstItem="jTM-jb-Qrk" firstAttribute="top" secondItem="F6W-su-UER" secondAttribute="top" constant="30" id="Yhv-MQ-Jvr"/>
+                                            <constraint firstAttribute="trailing" secondItem="hJ0-8X-T2d" secondAttribute="trailing" id="bgx-yI-rnR"/>
+                                            <constraint firstAttribute="trailing" secondItem="FZf-1i-P5e" secondAttribute="trailing" id="cKw-Hg-rD2"/>
+                                            <constraint firstItem="vwh-Zh-rIr" firstAttribute="top" secondItem="5Ft-7Q-vaT" secondAttribute="bottom" constant="30" id="cln-B5-tps"/>
+                                            <constraint firstAttribute="trailing" secondItem="jTM-jb-Qrk" secondAttribute="trailing" id="hgZ-6k-D8K"/>
+                                            <constraint firstAttribute="trailing" secondItem="vwh-Zh-rIr" secondAttribute="trailing" id="pxn-C1-l8l"/>
+                                        </constraints>
+                                    </stackView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="AJZ-P6-3Uq" firstAttribute="top" secondItem="i86-vh-OcQ" secondAttribute="top" constant="40" id="T4g-4K-lQf"/>
+                                    <constraint firstItem="AJZ-P6-3Uq" firstAttribute="top" secondItem="i86-vh-OcQ" secondAttribute="top" constant="10" id="cUd-xt-gDC"/>
+                                    <constraint firstItem="AJZ-P6-3Uq" firstAttribute="top" secondItem="i86-vh-OcQ" secondAttribute="top" constant="10" id="ySo-Jk-Fqb"/>
+                                    <constraint firstItem="F6W-su-UER" firstAttribute="leading" secondItem="AJZ-P6-3Uq" secondAttribute="trailing" constant="20" id="zgj-zW-pFu"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="i86-vh-OcQ" firstAttribute="top" secondItem="b2s-YY-TbI" secondAttribute="top" constant="40" id="8U8-dg-vr0"/>
+                            <constraint firstItem="b2s-YY-TbI" firstAttribute="trailing" secondItem="i86-vh-OcQ" secondAttribute="trailing" constant="20" id="Qrl-2b-R9e"/>
+                            <constraint firstItem="i86-vh-OcQ" firstAttribute="leading" secondItem="b2s-YY-TbI" secondAttribute="leading" constant="20" id="rab-K7-5Z5"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="b2s-YY-TbI"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="TIt-lr-xNL" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4161" y="689"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="mXs-qN-v1u">
+            <objects>
+                <viewController id="8YO-ut-drd" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="otd-7R-cR2">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="yQb-Dc-0BR"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="MRd-Y7-AIK" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5095" y="557"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="7Dr-CT-ezZ">
