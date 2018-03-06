@@ -10,10 +10,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Porperty Details-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Landlord_Mobile" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" userLabel="Porperty Details" customClass="ViewController" customModule="Landlord_Mobile" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -174,10 +174,10 @@
             </objects>
             <point key="canvasLocation" x="2407" y="-45"/>
         </scene>
-        <!--View Controller-->
+        <!--General Expense-->
         <scene sceneID="ghw-sr-fPx">
             <objects>
-                <viewController id="sai-7Z-uG3" sceneMemberID="viewController">
+                <viewController id="sai-7Z-uG3" userLabel="General Expense" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="USv-lA-zgA">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -303,10 +303,10 @@
             </objects>
             <point key="canvasLocation" x="3421" y="-43"/>
         </scene>
-        <!--View Controller-->
+        <!--Owner Details-->
         <scene sceneID="Dax-Rr-yWh">
             <objects>
-                <viewController id="Vy0-kB-SoM" sceneMemberID="viewController">
+                <viewController id="Vy0-kB-SoM" userLabel="Owner Details" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="VYR-nN-I0b">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -420,10 +420,10 @@
             </objects>
             <point key="canvasLocation" x="1426" y="972"/>
         </scene>
-        <!--View Controller-->
+        <!--Maintenance Expense-->
         <scene sceneID="4jP-r6-cGH">
             <objects>
-                <viewController id="Hjn-KF-NCa" sceneMemberID="viewController">
+                <viewController id="Hjn-KF-NCa" userLabel="Maintenance Expense" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="7tO-6N-Rcz">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -546,10 +546,10 @@
             </objects>
             <point key="canvasLocation" x="2396" y="740"/>
         </scene>
-        <!--View Controller-->
+        <!--Rental Agreement-->
         <scene sceneID="dEy-eY-VzD">
             <objects>
-                <viewController id="XJi-pD-Bfg" sceneMemberID="viewController">
+                <viewController id="XJi-pD-Bfg" userLabel="Rental Agreement" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="i1p-Xs-diJ">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -750,10 +750,10 @@
             </objects>
             <point key="canvasLocation" x="2403" y="1564"/>
         </scene>
-        <!--View Controller-->
+        <!--Tenant Reference-->
         <scene sceneID="7OJ-hv-9HU">
             <objects>
-                <viewController id="3Oa-jG-Qpa" sceneMemberID="viewController">
+                <viewController id="3Oa-jG-Qpa" userLabel="Tenant Reference" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="naQ-T4-rO9">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -928,10 +928,10 @@
             </objects>
             <point key="canvasLocation" x="2410" y="2271"/>
         </scene>
-        <!--View Controller-->
+        <!--Tenants-->
         <scene sceneID="BVU-w0-C79">
             <objects>
-                <viewController id="3Hq-L3-SYo" sceneMemberID="viewController">
+                <viewController id="3Hq-L3-SYo" userLabel="Tenants" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="GzE-oM-7zV">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1054,10 +1054,10 @@
             </objects>
             <point key="canvasLocation" x="3255" y="2282"/>
         </scene>
-        <!--View Controller-->
+        <!--Tenant Background-->
         <scene sceneID="ITI-kj-VAy">
             <objects>
-                <viewController id="Aaa-da-vep" sceneMemberID="viewController">
+                <viewController id="Aaa-da-vep" userLabel="Tenant Background" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="WVR-Yq-Bcn">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1180,10 +1180,10 @@
             </objects>
             <point key="canvasLocation" x="3168" y="1556"/>
         </scene>
-        <!--View Controller-->
+        <!--Tenant Income Exp-->
         <scene sceneID="kog-pX-hce">
             <objects>
-                <viewController id="GCL-ld-yKk" sceneMemberID="viewController">
+                <viewController id="GCL-ld-yKk" userLabel="Tenant Income Exp" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Qt6-9p-vp2">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1293,10 +1293,10 @@
             </objects>
             <point key="canvasLocation" x="4190" y="1563"/>
         </scene>
-        <!--View Controller-->
+        <!--Tenant Occupation-->
         <scene sceneID="H0c-7C-Tm8">
             <objects>
-                <viewController id="4ng-jw-gAr" sceneMemberID="viewController">
+                <viewController id="4ng-jw-gAr" userLabel="Tenant Occupation" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="gxH-mV-tb4">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1393,10 +1393,10 @@
             </objects>
             <point key="canvasLocation" x="5174" y="1453"/>
         </scene>
-        <!--View Controller-->
+        <!--Mortgage Loan-->
         <scene sceneID="bz3-qO-gU9">
             <objects>
-                <viewController id="yqL-Kr-zED" sceneMemberID="viewController">
+                <viewController id="yqL-Kr-zED" userLabel="Mortgage Loan" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="hgI-QC-y6G">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1507,10 +1507,10 @@
             </objects>
             <point key="canvasLocation" x="3198" y="737"/>
         </scene>
-        <!--View Controller-->
+        <!--Property Tax-->
         <scene sceneID="BK7-sM-jmQ">
             <objects>
-                <viewController id="VkP-KG-fw0" sceneMemberID="viewController">
+                <viewController id="VkP-KG-fw0" userLabel="Property Tax" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="DnO-Uv-CPP">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1621,10 +1621,10 @@
             </objects>
             <point key="canvasLocation" x="4161" y="689"/>
         </scene>
-        <!--View Controller-->
+        <!--Purchase Details-->
         <scene sceneID="mXs-qN-v1u">
             <objects>
-                <viewController id="8YO-ut-drd" sceneMemberID="viewController">
+                <viewController id="8YO-ut-drd" userLabel="Purchase Details" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="otd-7R-cR2">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1721,10 +1721,10 @@
             </objects>
             <point key="canvasLocation" x="5095" y="557"/>
         </scene>
-        <!--View Controller-->
+        <!--List of all tables-->
         <scene sceneID="7Dr-CT-ezZ">
             <objects>
-                <viewController id="vju-vM-lxL" sceneMemberID="viewController">
+                <viewController id="vju-vM-lxL" userLabel="List of all tables" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="siV-20-L4f">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1826,10 +1826,10 @@
             </objects>
             <point key="canvasLocation" x="1149.5999999999999" y="-45.42728635682159"/>
         </scene>
-        <!--View Controller-->
+        <!--Login View-->
         <scene sceneID="Dzx-M3-Lxg">
             <objects>
-                <viewController id="Txy-xs-9s0" sceneMemberID="viewController">
+                <viewController id="Txy-xs-9s0" userLabel="Login View" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="J10-Wp-Xtq">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
