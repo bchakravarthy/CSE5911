@@ -141,7 +141,7 @@ public class LANDLORDMOBILEAPIForPropertyMgmtClient: AWSAPIGatewayClient {
 	    super.init()
 	
 	    self.configuration = configuration.copy() as! AWSServiceConfiguration
-	    var URLString: String = "https://onxq8xfny0.execute-api.us-east-2.amazonaws.com/beta"
+	    var URLString: String = "https://infleu9vvd.execute-api.us-east-2.amazonaws.com/beta"
 	    if URLString.hasSuffix("/") {
 	        URLString = URLString.substring(to: URLString.index(before: URLString.endIndex))
 	    }
